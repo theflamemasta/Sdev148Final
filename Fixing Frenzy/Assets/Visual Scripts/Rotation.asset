@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: Rotation
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[{"name":"XRotate","value":{"$content":1.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"Rotate
+      the Cube","summary":"Make the Cube rotate.","pan":{"x":2.412104,"y":80.7422},"zoom":0.8614148,"elements":[{"coroutine":false,"defaultValues":{},"position":{"x":-204.0,"y":-144.0},"guid":"fc92f3ce-7d1b-4cce-b530-384ef95ef104","$version":"A","$type":"Bolt.Start"},{"coroutine":false,"defaultValues":{},"position":{"x":-207.0,"y":-57.0},"guid":"a95d0610-71d8-4a44-9dea-c8faee352be9","$version":"A","$type":"Bolt.Update","$id":"12"},{"chainable":false,"member":{"name":"Rotate","parameterTypes":["System.Single","System.Single","System.Single"],"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"%xAngle":{"$content":0.0,"$type":"System.Single"},"%yAngle":{"$content":0.0,"$type":"System.Single"},"%zAngle":{"$content":0.0,"$type":"System.Single"}},"position":{"x":69.0,"y":-95.0},"guid":"b47ede69-9015-4bfa-9551-dd3fd21516bd","$version":"A","$type":"Bolt.InvokeMember","$id":"14"},{"specifyFallback":false,"kind":"Graph","defaultValues":{"name":{"$content":"XRotate","$type":"System.String"}},"position":{"x":-237.0,"y":34.0},"guid":"88532e12-d5a4-42eb-b854-d28437241fe9","$version":"A","$type":"Bolt.GetVariable","$id":"17"},{"specifyFallback":false,"kind":"Object","defaultValues":{"name":{"$content":"YRotate","$type":"System.String"},"object":null},"position":{"x":-238.0,"y":134.0},"guid":"2520613d-9fbb-499b-ac19-9dae5a9ea351","$version":"A","$type":"Bolt.GetVariable","$id":"19"},{"sourceUnit":{"$ref":"12"},"sourceKey":"trigger","destinationUnit":{"$ref":"14"},"destinationKey":"enter","guid":"f8288b9e-edeb-4a9f-8923-d86397395c29","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"value","destinationUnit":{"$ref":"14"},"destinationKey":"%xAngle","guid":"c892c1ac-f02b-4c75-8256-2dc260935eaf","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"value","destinationUnit":{"$ref":"14"},"destinationKey":"%yAngle","guid":"11b3343d-d4a4-4f2b-ac26-457e01b3daf7","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
