@@ -47,7 +47,7 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\StaminaRefresh.cs" />
+     <Compile Include="Assets\Visual Scripts\StaminaRefresh.cs" />
      <None Include="Assets\Bolt\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Extensions.Design.xml" />
      <None Include="Assets\Bolt\Ludiq\Ludiq.Core\DotNetDocumentation\Microsoft.Build.Engine.xml" />
      <None Include="Assets\Bolt\Ludiq\Assemblies\Bolt.State.Runtime.xml" />
