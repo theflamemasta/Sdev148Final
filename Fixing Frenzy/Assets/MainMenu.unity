@@ -155,9 +155,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: ac24e0521a7bf2b458bb2d9000067628, type: 2}
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":0.0,"y":0.0},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-174.0,"y":-115.0},"guid":"58434856-985a-48be-89e2-07d62e83b1ad","$version":"A","$type":"Bolt.OnButtonClick","$id":"10"},{"chainable":false,"member":{"name":"LoadScene","parameterTypes":["System.String"],"targetType":"UnityEngine.SceneManagement.SceneManager","targetTypeName":"UnityEngine.SceneManagement.SceneManager","$version":"A"},"defaultValues":{"%sceneName":{"$content":"WarehouseLevel1","$type":"System.String"}},"position":{"x":118.0,"y":-35.0},"guid":"5dc14fd6-a567-476d-ace7-295b1f8883e6","$version":"A","$type":"Bolt.InvokeMember","$id":"12"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"Scene","$type":"System.String"}},"position":{"x":-163.0,"y":11.0},"guid":"1e7a4404-a0e0-4389-b922-9a08c357b619","$version":"A","$type":"Bolt.GetVariable","$id":"15"},{"sourceUnit":{"$ref":"10"},"sourceKey":"trigger","destinationUnit":{"$ref":"12"},"destinationKey":"enter","guid":"3fe39998-1f76-4551-b909-8a46d7156f11","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"15"},"sourceKey":"value","destinationUnit":{"$ref":"12"},"destinationKey":"%sceneName","guid":"503997e4-bd28-42a8-b1a0-7d2967fcc3bb","$type":"Bolt.ValueConnection"}],"$version":"A"}}}'
+    _objectReferences: []
 --- !u!114 &445672577
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -327,7 +326,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1148431767}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.52, y: 3.0082, z: 0}
+  m_LocalPosition: {x: 1.5, y: 3.0082, z: 0}
   m_LocalScale: {x: 2.05, y: 2.99, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -441,12 +440,12 @@ Camera:
     y: 0
     width: 1
     height: 1
-  near clip plane: 0.3
+  near clip plane: 0.73
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 4.8562646
-  m_Depth: -1
+  orthographic size: 5
+  m_Depth: -0.06
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -507,9 +506,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
-    _objectReferences:
-    - {fileID: 11400000, guid: 7071c63ef6c5dbc43ad42a3879ca19ee, type: 2}
+    _json: '{"nest":{"source":"Embed","macro":null,"embed":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":-12.66409,"y":-72.91348},"zoom":1.0,"elements":[{"chainable":false,"member":{"name":"Quit","parameterTypes":[],"targetType":"UnityEngine.Application","targetTypeName":"UnityEngine.Application","$version":"A"},"defaultValues":{},"position":{"x":90.0,"y":-88.0},"guid":"0a215efe-2930-4dfc-a3b4-8fe99eb69c27","$version":"A","$type":"Bolt.InvokeMember","$id":"10"},{"coroutine":false,"defaultValues":{"target":null},"position":{"x":-129.0,"y":-88.0},"guid":"e35dda7c-b182-4a06-8aaf-8c0adc972ec0","$version":"A","$type":"Bolt.OnButtonClick","$id":"13"},{"sourceUnit":{"$ref":"13"},"sourceKey":"trigger","destinationUnit":{"$ref":"10"},"destinationKey":"enter","guid":"7f4f5a57-6270-4276-a408-8cb420868663","$type":"Bolt.ControlConnection"}],"$version":"A"}}}'
+    _objectReferences: []
 --- !u!114 &2066405783
 MonoBehaviour:
   m_ObjectHideFlags: 0
