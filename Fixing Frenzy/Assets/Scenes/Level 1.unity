@@ -1981,7 +1981,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Speed","value":{"$content":200.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"Kind":"Object","collection":{"$content":[{"name":"Speed","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"Stamina","value":{"$content":6,"$type":"System.Int32"},"$version":"A"},{"name":"HasWrench","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"HasScrewD","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"HasWeld","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"HasBeltJam","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"SprintSpeed","value":{"$content":800.0,"$type":"System.Single"},"$version":"A"},{"name":"IsSprint","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"BaseSpeed","value":{"$content":400.0,"$type":"System.Single"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!95 &1880446735
 Animator:
