@@ -56,7 +56,7 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\StaminaRefresh.cs" />
+    <Compile Include="Assets\Visual Scripts\StaminaRefresh.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Bolt\Ludiq\Ludiq.Core\DotNetDocumentation\System.Web.Extensions.Design.xml" />
@@ -424,14 +424,14 @@
     <Reference Include="Unity.2D.Common.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Bolt.Core.Runtime">
+      <HintPath>Assets\Bolt\Ludiq\Assemblies\Bolt.Core.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="Antlr3.Runtime">
       <HintPath>Assets\Bolt\Ludiq\Assemblies\Antlr3.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Ludiq.Graphs.Runtime">
       <HintPath>Assets\Bolt\Ludiq\Assemblies\Ludiq.Graphs.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="Bolt.Core.Runtime">
-      <HintPath>Assets\Bolt\Ludiq\Assemblies\Bolt.Core.Runtime.dll</HintPath>
     </Reference>
     <Reference Include="Bolt.Flow.Runtime">
       <HintPath>Assets\Bolt\Ludiq\Assemblies\Bolt.Flow.Runtime.dll</HintPath>

@@ -341,6 +341,27 @@
     <Reference Include="UnityEngine.XRModule">
       <HintPath>A:\Program Files\Unity\Hub\Editor\2020.3.36f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\Variations\mono\Managed\UnityEngine.XRModule.dll</HintPath>
     </Reference>
+    <Reference Include="Bolt.Core.Runtime">
+      <HintPath>Assets\Bolt\Ludiq\Assemblies\Bolt.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>Assets\Bolt\Ludiq\Assemblies\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Ludiq.Graphs.Runtime">
+      <HintPath>Assets\Bolt\Ludiq\Assemblies\Ludiq.Graphs.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Bolt.Flow.Runtime">
+      <HintPath>Assets\Bolt\Ludiq\Assemblies\Bolt.Flow.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="MiscUtil">
+      <HintPath>Assets\Bolt\Ludiq\Assemblies\MiscUtil.dll</HintPath>
+    </Reference>
+    <Reference Include="Ludiq.Core.Runtime">
+      <HintPath>Assets\Bolt\Ludiq\Assemblies\Ludiq.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Bolt.State.Runtime">
+      <HintPath>Assets\Bolt\Ludiq\Assemblies\Bolt.State.Runtime.dll</HintPath>
+    </Reference>
     <Reference Include="netstandard">
       <HintPath>A:\Program Files\Unity\Hub\Editor\2020.3.36f1\Editor\Data\NetStandard\ref\2.0.0\netstandard.dll</HintPath>
     </Reference>
